@@ -1,0 +1,133 @@
+body {
+    font-family: Nunito, 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    width: 98%;
+    margin: 0 auto;
+
+}
+
+aside {
+    width: 6%;
+    float: left;
+    height: 100vh;
+    background-color: rgb(244, 243, 243);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+   }
+
+ul {
+list-style: none;
+justify-content: center;
+}
+
+.item {
+display: flex;
+justify-content: space-between;
+
+}
+
+nav {
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+    font-size: medium;
+    justify-content: space-around;
+}
+
+aside>ul>li>img {
+width: 50%;
+}
+
+input {
+width: 75%;
+margin-right: 10px;
+}
+
+aside>ul>li>img {
+    margin-top: 20px;
+    }
+
+.linea {
+margin-top: 25px;
+}
+
+main {
+width: 93%;
+float: right;
+display: column;
+}
+
+div {
+width: 96%;
+position: relative;
+background-color: white;
+display: flex;
+}
+
+main>header>img {
+border-radius: 50%;
+}
+
+header {
+position: relative;
+display: flex;
+justify-content: flex-end;
+}
+
+button {
+border: none;
+bottom: white;
+margin: 0 25px 0 25px;
+padding: 8px;
+background-color: white;
+border-left: 10px;
+}
+
+span {
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+button:hover {
+    background: rgb(171, 169, 169);
+    color: black;
+    }
+      
+
+.contenedor-flex {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items:flex-start;
+width: 100%;
+position: relative;
+overflow: hidden;
+background-color: white;
+gap: 5px;
+}
+
+.columna {
+display: inline-block;
+float: left;   
+box-sizing: border-box;
+margin-left: 20px;
+}
+
+.caja {
+width: 96%;
+margin-bottom: 10px;
+background-color: lightblue;
+padding: 10px;
+position: relative;
+}
+
+.caja img {
+width: 100%;
+height: auto;
+display: inline-block;
+border-radius: 10px;
+
+}
