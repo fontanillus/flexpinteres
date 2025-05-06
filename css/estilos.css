@@ -1,133 +1,173 @@
 body {
     font-family: Nunito, 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
-    width: 98%;
-    margin: 0 auto;
+    width: 100%;
+   margin: 0 auto;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+#cuerpo {
+display: flex;
+flex-flow: row;
+justify-content: space-around;
+align-items: flex-start;
+align-self: center;
 }
 
 aside {
     width: 6%;
-    float: left;
     height: 100vh;
     background-color: rgb(244, 243, 243);
     display: flex;
+    flex-wrap: column wrap;
     justify-content: flex-start;
     flex-direction: column;
-   }
+    justify-content: flex-start;
+    align-items: spcace-center;
+           
+ }
+
 
 ul {
-list-style: none;
-justify-content: center;
-}
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
 
 .item {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-betw;
+
 
 }
 
 nav {
-    display: inline-block;
-    margin: 10px;
-    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-size: medium;
-    justify-content: space-around;
+    justify-content: row;;
+    align-content: flex-start;
+   
 }
 
 aside>ul>li>img {
-width: 50%;
+    width: 50%;
 }
 
 input {
-width: 75%;
-margin-right: 10px;
+    display: flex;
+    width: 75%;
+    margin-right: 10px;
+    
 }
 
 aside>ul>li>img {
-    margin-top: 20px;
-    }
+     margin-top: 20px;
+}
 
 .linea {
-margin-top: 25px;
+    margin-top: 25px;
 }
 
 main {
-width: 93%;
-float: right;
-display: column;
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: column wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    
 }
 
+
 div {
-width: 96%;
-position: relative;
-background-color: white;
-display: flex;
+    width: 96%;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: space-around;
+
 }
 
 main>header>img {
-border-radius: 50%;
+    border-radius: 50%;
 }
 
 header {
-position: relative;
-display: flex;
-justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+
 }
 
 button {
-border: none;
-bottom: white;
-margin: 0 25px 0 25px;
-padding: 8px;
-background-color: white;
-border-left: 10px;
+    display: flex;
+    border: none;
+    bottom: white;
+    margin: 0 25px 0 25px;
+    padding: 8px;
+    background-color: white;
+    border-left: 10px;
 }
 
 span {
     border-bottom: 2px solid black;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    
+
 }
 
 button:hover {
     background: rgb(171, 169, 169);
     color: black;
-    }
-      
-
-.contenedor-flex {
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-align-items:flex-start;
-width: 100%;
-position: relative;
-overflow: hidden;
-background-color: white;
-gap: 5px;
 }
 
+
+.contenedor-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    padding-left: 10px 5px 5px 10px;
+    width: 100%;
+   }
+
 .columna {
-display: inline-block;
-float: left;   
-box-sizing: border-box;
-margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    margin-left: 20px;
 }
 
 .caja {
-width: 96%;
-margin-bottom: 10px;
-background-color: lightblue;
-padding: 10px;
-position: relative;
+    margin-bottom: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 .caja img {
-width: 100%;
-height: auto;
-display: inline-block;
-border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
 
 }
